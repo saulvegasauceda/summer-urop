@@ -109,3 +109,27 @@ def one_step_reaction(molecule_smiles, enzyme_reaction_tuples, cutoff):
     return nodes.union(molecule_smiles), edges
 
 prod, rxn = one_step_reaction(mol_smiles, enz_rxns, 1000)
+
+### Uncomment the following to create a file containing reaction information.
+# #creating a dataframe for the file
+# df = pd.DataFrame()
+
+# #initializing list for columns
+# start = []
+# products = []
+# reaction = []
+
+# for i in rxn:
+#     #iterating through each edge (rxn) from start to product
+#     #adding the appropriate values to each list
+#     start.append(i[0])
+#     products.append(i[1])
+#     reaction.append(i[2])
+
+# # Creates the columns with the corresponding Titles
+# df['Reactant SMILES'] = start
+# df['Product SMILES'] = products
+# df['Reaction SMARTS'] = reaction
+
+# df.to_excel('Start Expansion.xlsx', index = False)
+# #Check file for changes
