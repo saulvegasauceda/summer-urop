@@ -33,6 +33,8 @@ for i, m in enumerate(start_fps):
 
 #creating dataframe and sorting by sim values
 d = {'Start':st, 'Target':tg, 'Similarity':sim}
-#df_final = pd.DataFrame(data=d)
-#df_final = df_final.sort_values('Similarity', ascending=False)
+df_final = pd.DataFrame(data=d)
+df_final = df_final.sort_values('Similarity', ascending=False)
+
+### Uncomement the follwoing to create file:
 #df_final.to_excel('similarity.xlsx', index = False)
