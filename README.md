@@ -4,7 +4,7 @@
 Files posted here contain relevant programs to perfrom the first product expansion from the initial list of starting compounds.
 Necessary data files will be shared here (https://www.dropbox.com/sh/ojx2hrvknry7vov/AAAaA-_2HGcGANMiBpwr8s1Ia?dl=0)
 Target compound SMILES were downloaded from https://zinc.docking.org. Compounds categorized as FDA approved were used.
-Enzymatic reaction rules used in the first expansion were from a NorthWestern study that automatically derived rules from KEGG and MetaCyc. The group created new SMARTS that reduced the redundancy and faults of the named databases (paper: https://www.sciencedirect.com/science/article/abs/pii/S1096717621000288).
+Enzymatic reaction rules used in the first expansion were from a NorthWestern study that automatically derived rules from KEGG,BRENDA, and MetaCyc. The group created new SMARTS that reduced the redundancy and faults of the named databases (paper: https://www.sciencedirect.com/science/article/abs/pii/S1096717621000288).
 
 Note: I was not able to include my main notebook due to the upload size constraints.
 ___
